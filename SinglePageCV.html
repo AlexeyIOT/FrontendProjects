@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-UA">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Single-Page CV</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: "Roboto", sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto; /* Центрує контейнер */
+      background-color: #fff;
+      padding: 2rem;
+      border: 1px solid grey;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      color: green;
+      font-size: 1rem;
+      margin: 0.5rem 0;
+    }
+
+    h3 {
+      color: rgb(78, 78, 247);
+      font-size: 1rem;
+      margin: 0.4rem 0;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    #address pre {
+      font-family: inherit;
+      margin: 1rem 0;
+    }
+
+    p {
+      margin: 0.5rem 0;
+    }
+
+    ul {
+      list-style-position: inside;
+      padding-left: 1rem;
+      margin: 0.5rem 0 1rem;
+    }
+
+    ul > li {
+      font-size: 0.9rem;
+      margin: 0.25rem 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Zaluzhnyi Oleksiy</h1>
+    <h2 id="job_title">Junior Frontend Developer</h2>
+
+    <section id="address">
+      <pre>
+123 Your Street
+Your City, ST 12345
+(123) 456-7890
+no-reply@example.com
+      </pre>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>
+        HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web
+        Design, Technical Writing, Presentation
+      </p>
+    </section>
+
+    <section id="Education">
+      <h2>Education</h2>
+      <h3>School Name, Location - Degree</h3>
+      <p>
+        Month 20xx to Month 20xx <br />
+        List of exciting things you did at university
+      </p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <h3>Company Name, Location - Job Title</h3>
+      <p>Month 20xx to Month 20xx</p>
+      <ul>
+        <li>List of achievements</li>
+        <li>List of achievements</li>
+        <li>List of achievements</li>
+      </ul>
+      <p>Skills: List of skills used or gained at this company</p>
+
+      <h3>Company Name, Location - Job Title</h3>
+      <p>Month 20xx to Month 20xx</p>
+      <ul>
+        <li>List of achievements</li>
+        <li>List of achievements</li>
+        <li>List of achievements</li>
+      </ul>
+      <p>Skills: List of skills used or gained at this company</p>
+    </section>
+
+    <section id="additionals">
+      <h2>Across the Internet</h2>
+      <p>Add your LinkedIn, Github profile links</p>
+    </section>
+  </div>
+</body>
+
+</html>
