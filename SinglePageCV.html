@@ -4,7 +4,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Приклад web-сторінки для проєкту з використанням HTML та CSS">
+  <meta name="keywords" content="HTML, CSS, CV, Education, Project">
+
+  <meta name="og:title" content="Practice CV HTML-CSS web-project">
+  <meta name="og:description"
+    content="Приклад web-сторінки для проєкту з використанням HTML та CSS, For social networks">
+  <meta name="og:image"
+    content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD56F3PjDuheckcjKMaSLLV-jEwZiFwd-J9A&s">
+  <meta name="og:url" content="123.456.7.8:12345/localhost">
+
+  <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/128/3685/3685999.png">
   <title>Single-Page CV</title>
+
   <style>
     * {
       box-sizing: border-box;
@@ -20,7 +32,7 @@
 
     .container {
       max-width: 800px;
-      margin: 0 auto; /* Центрує контейнер */
+      margin: 0 auto;
       background-color: #fff;
       padding: 2rem;
       border: 1px solid grey;
@@ -62,7 +74,7 @@
       margin: 0.5rem 0 1rem;
     }
 
-    ul > li {
+    ul>li {
       font-size: 0.9rem;
       margin: 0.25rem 0;
     }
@@ -70,61 +82,72 @@
 </head>
 
 <body>
-  <div class="container">
-    <h1>Zaluzhnyi Oleksiy</h1>
-    <h2 id="job_title">Trainee Frontend Developer</h2>
+  <main>
+    <div class="container">
+      <h1>Zaluzhnyi Oleksiy</h1>
+      <h2 id="job_title">Trainee Frontend Developer</h2>
 
-    <section id="address">
-      <pre>
-Ukraine, Kyiv
-+380957089652
-a.zaluzhnyy24@gmail.com
-      </pre>
-    </section>
+      <section id="address">
+        <pre>
+  Ukraine, Kyiv
+  +380957089652
+  a.zaluzhnyy24@gmail.com
+        </pre>
+      </section>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <p>
-        HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web
-        Design, Technical Writing, Presentation
-      </p>
-    </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <p>
+          HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web
+          Design, Technical Writing, Presentation
+        </p>
+      </section>
 
-    <section id="Education">
-      <h2>Education</h2>
-      <h3>NULES, Kyiv - Bachelor</h3>
-      <p>
-        August 2023 to July 2027 <br />
-        List of exciting things i did at university
-      </p>
-    </section>
+      <section id="Education">
+        <h2>Education</h2>
+        <h3>NULES, Kyiv - Bachelor</h3>
+        <p>
+          August 2023 to July 2027 <br />
+          List of exciting things i did at university
+        </p>
+      </section>
 
-    <section id="experience">
-      <h2>Experience</h2>
-      <h3>Company Name, Location - Job Title</h3>
-      <p>Month 20xx to Month 20xx</p>
-      <ul>
-        <li>List of achievements</li>
-        <li>List of achievements</li>
-        <li>List of achievements</li>
-      </ul>
-      <p>Skills: List of skills used or gained at this company</p>
+      <section id="experience">
+        <h2>Experience</h2>
+        <h3>Company Name, Location - Job Title</h3>
+        <p>Month 20xx to Month 20xx</p>
+        <ul>
+          <li>List of achievements</li>
+          <li>List of achievements</li>
+          <li>List of achievements</li>
+        </ul>
+        <p>Skills: List of skills used or gained at this company</p>
 
-      <h3>Company Name, Location - Job Title</h3>
-      <p>Month 20xx to Month 20xx</p>
-      <ul>
-        <li>List of achievements</li>
-        <li>List of achievements</li>
-        <li>List of achievements</li>
-      </ul>
-      <p>Skills: List of skills used or gained at this company</p>
-    </section>
+        <h3>Company Name, Location - Job Title</h3>
+        <p>Month 20xx to Month 20xx</p>
+        <ul>
+          <li>List of achievements</li>
+          <li>List of achievements</li>
+          <li>List of achievements</li>
+        </ul>
+        <p>Skills: List of skills used or gained at this company</p>
+      </section>
 
-    <section id="additionals">
-      <h2>Across the Internet</h2>
-      <p>Add your LinkedIn, Github profile links</p>
-    </section>
-  </div>
+      <section id="additionals">
+        <h2>Across the Internet</h2>
+        <ul>
+          <li><a href="https://github.com/username">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/username">LinkedIn</a></li>
+        </ul>
+      </section>
+
+      <footer>
+        <p>© 2025 Zaluzhnyi Oleksiy</p>
+      </footer>
+
+    </div>
+
+  </main>
 </body>
 
 </html>
